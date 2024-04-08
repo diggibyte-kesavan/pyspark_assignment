@@ -4,7 +4,7 @@ from pyspark.sql.types import StructType, StructField, IntegerType, StringType, 
 
 
 def spark_session():
-    spark = SparkSession.builder.appName('assignment 3 ').getOrCreate()
+    spark = SparkSession.builder.appName('Assignment3').getOrCreate()
     return spark
 
 
